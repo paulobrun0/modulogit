@@ -214,3 +214,22 @@ nav .active a, nav a:hover {
     height: 24px;
     margin: -6px 0;
 }
+
+.news_data {
+    display:flex;
+}
+
+.news_posted_at {
+    background-color: #2b4c99;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+    margin-right:2px;
+}
+
+.news_comments {
+    background-color: #39aae1;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+}
