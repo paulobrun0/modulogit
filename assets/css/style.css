@@ -2,10 +2,15 @@
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
+h1,h2,h3,h4,h5,h6,p,span{
+    margin: 0;
+    padding: 0;
+}
 body {
     margin: 0;
     padding: 0;
 }
+
 
 .cabecalho {
     display: flex;
@@ -321,17 +326,46 @@ footer {
     flex: 1;
     color: #ffffff;
 }
+.footer_widget_medicenter_content{
+    color: #727272;
+}
 
-.footer_area_item .widget_body {
+.footer_wdiget_medicenter_adress {
     display: flex;
-    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.footer_wdiget_medicenter_adress :first-child{
+    padding: 0 50px 8px 0;
+}
+.footer_wdiget_medicenter_adress :nth-child(2n) {
+    padding: 0 30px 8px 0;
+}
+.footer_wdiget_medicenter_adress :nth-child(6){
+    padding: 0 5px 8px 0;
+    border:1px solid red
+}
+.footer_wdiget_medicenter_adress .email {
+    color: #ffffff;
+}
+.footer_area_item .widget_body {
+    margin-top: 30px;
+}
+.footer_area_item .widget_body a {
+    text-decoration: none;
+    color: #ffffff;
 }
 .footer_area_item .widget_body svg {
-    margin: 12px 10px 0 0;
-    width: 70px;
+    height: 1.2rem;
 }
+.footer_widget_content {
+    margin: -12px 0 0 30px;
+}
+
 .footer_area_days {
-    margin: 30px;
+    margin: 14px 0 0 30px;
+    color: #0079c7;
 }
 footer .container {
     flex-direction: column;
