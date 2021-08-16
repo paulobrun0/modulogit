@@ -330,24 +330,38 @@ footer {
     color: #727272;
 }
 
-.footer_wdiget_medicenter_adress {
+.footer_widget_medicenter_adress {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 20px 0;
 }
-.footer_wdiget_medicenter_adress :first-child{
+.footer_widget_medicenter_adress :first-child{
     padding: 0 50px 8px 0;
 }
-.footer_wdiget_medicenter_adress :nth-child(2n) {
+.footer_widget_medicenter_adress :nth-child(2n) {
     padding: 0 30px 8px 0;
 }
-.footer_wdiget_medicenter_adress :nth-child(6){
+.footer_widget_medicenter_adress :nth-child(6){
     padding: 0 5px 8px 0;
-    border:1px solid red
 }
-.footer_wdiget_medicenter_adress .email {
+.footer_widget_medicenter_adress .email {
     color: #ffffff;
+}
+
+.footer_widget_medicenter_social_media{
+    display: flex;
+}
+
+.footer_widget_medicenter_social_media ul{
+   padding: 0;
+}
+
+.footer_widget_medicenter_social_media .social_midia_footer {
+    /* color: #727272; */
+    background-color: #555;
+    margin-right: 4px;
+    padding: 4px;
 }
 .footer_area_item .widget_body {
     margin-top: 30px;
