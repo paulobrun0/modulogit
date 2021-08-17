@@ -493,6 +493,9 @@ footer .widget_title_text {
   nav a {
     padding: 7px;
   }
+  .banner {
+    height: 800px;
+  }
   .banner_headline h1 {
     color: #5c5c5c;
     font-size: 50px;
@@ -509,12 +512,10 @@ footer .widget_title_text {
     flex-direction: column;
     height: auto;
   }
-  /* .banner {
-    margin-bottom: 370px;
-  } */
+
   .geral .container {
     flex-direction: column;
-    margin-top: 520px;
+    margin-top: 150px;
   }
   .right_container .widget_body {
     justify-content: space-evenly;
@@ -556,12 +557,9 @@ footer .widget_title_text {
   nav a {
     padding: 4px;
   }
-  /* .main_container {
-    margin-top: 150px;
-}
   .banner {
-    margin-bottom: 370px;
-  } */
+    height: 800px;
+  }
   .banner_headline h1 {
     color: #5c5c5c;
     font-size: 50px;
@@ -582,7 +580,7 @@ footer .widget_title_text {
   }
   .geral .container {
     flex-direction: column;
-    margin-top: 550px;
+    margin-top: 150px;
   }
 
   .footer_menu {
